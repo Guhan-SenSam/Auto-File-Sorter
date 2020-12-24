@@ -1,0 +1,43 @@
+$ Plan for File organizer
+
+-Primary color is: Green Haze
+
+
+~There are three mains menues:
+    1.Organize:
+        -clicking on this menue enables you to to go through various other screens to then organize a particular folder or a drive
+    2.Quick Organize:
+        -Choosing this option only sorts the files that are present inside your downloads, documents, video and pictures folders.
+    3.File Utilities:
+        -Gives you access to various different file utilities such as...
+            a)Showing how full your hard drives are and what folders are taking up most of the space
+            b)the ability to encrypt certain files or folders using a special key
+
+~There is also a setting button at the bottom of the screen to change various settings
+
+~The quick sort function does the operation of sorting through the user's downloads, documents and Desktop
+    The files are first sorted based on their overall type. The categories are...
+        -Pictures
+        -Videos
+        -Websites
+        -documents
+            Word
+            PDF
+            Powerpoint
+            Excel
+            Text_document
+        -Audio
+
+    For the sort that occurs in the downloads folder we sort...
+        -Pictures(Based on month of download)
+        -Videos(Based on month of download)
+        -documents
+            Word
+            PDF
+            Powerpoint
+            Excel
+            Text_document
+        -Zipped folders
+        -Audio
+        -Installers
+        -Other

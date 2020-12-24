@@ -1,0 +1,150 @@
+<Organize>:
+    radius:20,20,20,20
+    size_hint:.2,.45
+    pos_hint:{'center_x':.5, "center_y":.5}
+    elevation:12
+    md_bg_color:1,1,1,1
+    RelativeLayout:
+        MDIconButton:
+            id:organize
+            user_font_size:'90sp'
+            pos_hint:{'center_x':.5, 'center_y':.5}
+            icon:'sort'
+
+        Label:
+            id:label
+            text:"Sort"
+            color:0,0,0,1
+            pos_hint:{'center_x':.5, 'center_y':.15}
+            font_name:'Roboto-Bold'
+            font_size:'15sp'
+
+<QuickOrganize>:
+    radius:20,20,20,20
+    size_hint:.2,.45
+    pos_hint:{'center_x':.5, "center_y":.5}
+    elevation:12
+    md_bg_color:1,1,1,1
+    RelativeLayout:
+        id:container
+        MDIconButton:
+            id:quickorganize
+            user_font_size:'90sp'
+            pos_hint:{'center_x':.5, 'center_y':.5}
+            icon:'auto-fix'
+            on_press:
+
+        Label:
+            id:label
+            text:"Quick Sort"
+            color:0,0,0,1
+            pos_hint:{'center_x':.5, 'center_y':.15}
+            font_name:'Roboto-Bold'
+            font_size:'15sp'
+
+<Tools>:
+    radius:20,20,20,20
+    size_hint:.2,.45
+    pos_hint:{'center_x':.5, "center_y":.5}
+    elevation:12
+    md_bg_color:1,1,1,1
+    RelativeLayout:
+        MDIconButton:
+            id:tools
+            user_font_size:'90sp'
+            pos_hint:{'center_x':.5, 'center_y':.5}
+            icon:'wrench'
+
+        Label:
+            id:label
+            text:"Other Tools"
+            color:0,0,0,1
+            pos_hint:{'center_x':.5, 'center_y':.15}
+            font_name:'Roboto-Bold'
+            font_size:'15sp'
+
+<SettingsButton>:
+    icon:'settings-outline'
+    pos_hint:{'center_x':.5, 'center_y':.1}
+    on_release:self.wobble()
+
+
+
+<Desktop>:
+    id:desktop_card
+    md_bg_color:0.0039,0.596,0.4588,1
+    radius:20,20,20,20
+    pos_hint:{'center_x':.15, 'center_y':.55}
+    elevation:12
+    size_hint:.2,.40
+    RelativeLayout:
+        MDIconButton:
+            id:desktop
+            user_font_size:'90sp'
+            pos_hint:{'center_x':.5, 'center_y':.5}
+            icon:'monitor'
+
+        Label:
+            id:label
+            text:"Desktop"
+            color:0,0,0,1
+            pos_hint:{'center_x':.5, 'center_y':.15}
+            font_name:'Roboto-Bold'
+            font_size:'15sp'
+
+<Downloads>:
+    id:downloads_card
+    md_bg_color:0.0039,0.596,0.4588,1
+    radius:20,20,20,20
+    pos_hint:{'center_x':.45, 'center_y':.55}
+    elevation:12
+    size_hint:.2,.40
+    RelativeLayout:
+        MDIconButton:
+            id:downloads
+            user_font_size:'90sp'
+            pos_hint:{'center_x':.5, 'center_y':.5}
+            icon:'download'
+
+        Label:
+            id:label
+            text:"Downloads"
+            color:0,0,0,1
+            pos_hint:{'center_x':.5, 'center_y':.15}
+            font_name:'Roboto-Bold'
+            font_size:'15sp'
+
+<Documents>:
+    id:doucments_card
+    md_bg_color:0.0039,0.596,0.4588,1
+    radius:20,20,20,20
+    pos_hint:{'center_x':.75, 'center_y':.55}
+    elevation:12
+    size_hint:.2,.40
+    RelativeLayout:
+        MDIconButton:
+            id:documents
+            user_font_size:'90sp'
+            pos_hint:{'center_x':.5, 'center_y':.5}
+            icon:'file-document-outline'
+
+        Label:
+            id:label
+            text:"Documents"
+            color:0,0,0,1
+            pos_hint:{'center_x':.5, 'center_y':.15}
+            font_name:'Roboto-Bold'
+            font_size:'15sp'
+
+
+<MainScreen>:
+    canvas:
+        Color:
+            rgba:0.0039,0.596,0.4588,1
+        Rectangle:
+            size:self.size
+            pos:self.pos
+    FloatLayout:
+        id:container
+        size:self.size
+        pos:self.pos
